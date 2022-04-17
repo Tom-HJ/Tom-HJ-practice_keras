@@ -18,7 +18,7 @@ model = keras.models.Sequential()
 여기서 입력 계층의 노드 수 input_shape의 지정에 의해 자동으로 생성됩니다.
 '''
 model.add(keras.layers.Dense(1, input_shape=(1,)))
-# 만들 모델을 확률적 경사하강법(SGD)으로 학습시키고 손실 함수는 평균제곱오차(mse)를 사용하여 컴파일합니다.
+# 만들 모델을 확률적 경사하강법(SGD)으로 학습시키고 손실 함수는 평균제곱오차(Mean Squared Error, mse)를 사용하여 컴파일합니다.
 model.compile('SGD', 'mse')
 
 '''
