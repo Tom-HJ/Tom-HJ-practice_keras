@@ -12,7 +12,7 @@ from keras.preprocessing import image
 from keras.applications.vgg16 import preprocess_input, decode_predictions
 import numpy as np
 img_path = 'example\\human.jpg'
-output = 'example\\result.jpg'
+output = 'example\\human_cam.jpg'
 
 # 이미지를 불러오고, VGG16의 입력 픽셀인 224 x 224로 사이즈를 변환합니다.
 img = image.load_img(img_path, target_size=(224, 224))

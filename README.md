@@ -38,8 +38,9 @@
 
 ### 9. Class Activation Map, CAM   
 > 가끔 ConvNet의 의사결정과정을 Visualization을 해야할 때가 있는데, 이때 어느부분이 ConvNet의 최종 분류 결정에 기여하였는가를 Debugging을 할 때 사용합니다.   
-> 또 이미지의 특정 물체 위치를 파악할 때도 사용됩니다.
-> 결국 CAM은 특정 클래스 출력에 대해 입력 이미지의 모든 위치를 계산한 2D 점수 그리드를 Heatmap으로 표현한 것으로 각 위치가 얼마나 중요한지를 말해줍니다.
-> CAM의 자세한 설명은 다음 논문을 참조하세요.  링크: [Visual Explanaitions from Deep Networks via Gradient based Localization](https://arxiv.org/pdf/1610.02391.pdf)
+> 또 이미지의 특정 물체 위치를 파악할 때도 사용됩니다.   
+> 결국 CAM은 특정 클래스 출력에 대해 입력 이미지의 모든 위치를 계산한 2D 점수 그리드를 Heatmap으로 표현한 것으로 각 위치가 얼마나 중요한지를 말해줍니다.   
+> CAM의 자세한 설명은 다음 논문을 참조하세요.   
+> 링크: [Visual Explanaitions from Deep Networks via Gradient based Localization](https://arxiv.org/pdf/1610.02391.pdf)   
    
-예제 링크: [CAM 예제 코드](https://github.com/Tom-HJ/Tom-HJ-practice_keras/blob/main/9_CAM.py)
+예제 링크: [CAM 예제 코드](https://github.com/Tom-HJ/Tom-HJ-practice_keras/blob/main/9_CAM.py)   
