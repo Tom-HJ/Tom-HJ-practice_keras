@@ -34,7 +34,17 @@
 >        
 > ANN의 기본적인 활용에는 분류와 회귀로 나눌 수 있습니다. 분류 ANN은 입력 정보를 클래스별로 분류하는 방식이며, 회귀 ANN은 입력 정보로 다른 값을 예측하는 방식입니다.       
    
-예제 링크: [ANN 예제 코드](https://github.com/Tom-HJ/Tom-HJ-practice_keras/blob/main/1_ANN.py)
+예제 링크: [ANN 예제 코드](https://github.com/Tom-HJ/Tom-HJ-practice_keras/blob/main/1_ANN.py)   
+
+### 3. Deep Neural Network, DNN   
+> 심층 신경망으로 불리고 복잡한 데이트를 학습하려고 은닉계층을 많이 쌓아서 만든 인공지능입니다.   
+> 많아진 계층 덕분에 은닉 계층 하나를 활용할 때보다 입력 신호를 더 정교하게 처리 할 수 있으며, 적용분야도 다양합니다.   
+> 하지만 이때문에 과적합 문제가 발생할 수도 있습니다. 최근에는 이를 효과적으로 해결하는 다양한 방법이 제시되었습니다.
+> DNN은 복잡도가 높은 비정형 빅데이터에 용이하지만, 결국 과적합을 얼마나 방지하느냐가 이를 제대로 활용하는 열쇠입니다.  
+
+### 8. R-CNN   
+> 오브젝트 디텍션 - 정리중...
+예제 링크: [R-CNN 예제 코드](https://machinelearningmastery.com/how-to-train-an-object-detection-model-with-keras/)
 
 ### 9. Class Activation Map, CAM   
 > 가끔 ConvNet의 의사결정과정을 Visualization을 해야할 때가 있는데, 이때 어느부분이 ConvNet의 최종 분류 결정에 기여하였는가를 Debugging을 할 때 사용합니다.   
